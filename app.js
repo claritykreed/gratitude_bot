@@ -11,7 +11,7 @@ stream.on('follow', followed);
 
 function followed(eventMsg) {
     var screenName = eventMsg.source.screen_name;
-    tweetIt('Hi ' + '@' + screenName + ', thanks for following us - you can also checkout our website www.andrewstax.ie');
+    tweetIt('Hi ' + '@' + screenName + ', thanks for following - have you a tax query you need answered? call +353 1 6978012');
     }
 
 function tweetIt(txt) {
@@ -26,7 +26,7 @@ function tweetIt(txt) {
       if (err) {
           console.log("Something went wrong");
       }
-     console.log(data);
+     console.log("It worked");
 }
 
 }
