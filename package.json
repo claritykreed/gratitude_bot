@@ -10,9 +10,6 @@
     "socket.io": "~0.9.14",
     "twit": "^2.2.9"
   },
-  "scripts": {
-    "start": "node app.js"
-  },
   "devDependencies": {},
   "keywords": [
     "twitter",
