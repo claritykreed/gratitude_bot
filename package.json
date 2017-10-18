@@ -5,7 +5,7 @@
   "main": "app.js",
   "author": "Derek Andrews <derekandrews@protonmail.com> with lots of help especially Daniel Schiffman, the coding train on youtube",
   "dependencies": {
-       "twit": "^2.2.9"
+    "twit": "^2.2.9"
   },
   "keywords": [
     "twitter",
