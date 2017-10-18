@@ -1,6 +1,5 @@
-require('dotenv').config();
+// require('dotenv').config();
 var Twit = require('twit');
-
 var config = require('./config');
 var T = new Twit(config);
 
@@ -12,7 +11,7 @@ stream.on('follow', followed);
 
 function followed(eventMsg) {
     var screenName = eventMsg.source.screen_name;
-    tweetIt('Hi ' + '@' + screenName + ', thanks for following - have you a tax query you need answered? call +353 1 6978012');
+    tweetIt('@' + screenName + ', Welcome and thank you for following us on Twitter! We hope you like our tweets and look forward to sharing interests. Regards from all of us at Andrews Tax Consulting in Dublin.');
     }
 
 function tweetIt(txt) {
